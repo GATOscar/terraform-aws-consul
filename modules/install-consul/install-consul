@@ -227,7 +227,7 @@ function install_tls_certificates {
 
 function install {
   local version=""
-  local download_url=""
+  local download_url="https://releases.hashicorp.com/consul/1.5.3/consul_1.5.3_linux_amd64.zip"
   local path="$DEFAULT_INSTALL_PATH"
   local user="$DEFAULT_CONSUL_USER"
   local ca_file_path=""
